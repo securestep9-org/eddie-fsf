@@ -1,0 +1,24 @@
+image: gitpod/workspace-full-vnc:latest
+
+tasks:
+  - init: npm install # runs during prebuild
+
+ports:
+  - port: 5173
+    onOpen: ignore
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: false
+    addBadge: true
+
+vscode:
+  extensions:
+    - humao.rest-client
+    - svelte.svelte-vscode
+    - bradlc.vscode-tailwindcss
