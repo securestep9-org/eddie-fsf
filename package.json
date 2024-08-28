@@ -39,7 +39,7 @@
     "postcss": "^8.4.23",
     "postcss-load-config": "^4.0.1",
     "prettier": "^3.0.3",
-    "prettier-plugin-svelte": "^3.0.3",
+    "prettier-plugin-svelte": "^3.2.6",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "radix-svelte": "^0.9.0",
     "rehype-autolink-headings": "^6.1.1",
