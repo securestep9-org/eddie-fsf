@@ -44,7 +44,7 @@
     "radix-svelte": "^0.9.0",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.1.0",
-    "svelte": "^4.2.1",
+    "svelte": "^4.2.19",
     "svelte-check": "^3.5.2",
     "svelte-eslint-parser": "^0.33.1",
     "svelte-preprocess": "^5.0.4",
